@@ -1,4 +1,4 @@
-from ._calculate_fun import calculate_fun
+from .calculate_fun import calculate_fun
 
 
 def print_fun(fun_prior: float = 5.0) -> float:
@@ -18,4 +18,4 @@ def print_fun(fun_prior: float = 5.0) -> float:
     print("Let's have some fun with PlayPackage! 🎉")
     print("Remember, the more you play, the more you learn!")
     print("Keep exploring and enjoy your coding journey! 🚀")
-    return calculate_fun()
+    return calculate_fun(fun_prior)
